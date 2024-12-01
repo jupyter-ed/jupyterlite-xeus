@@ -6,7 +6,7 @@ dependencies:
   - xeus-python
   - xeus-sqlite
   - xeus-javascript
-  - jupyter_server
+  - jupyterlite-core 
   - ipywidgets
   - ipyevents
   - ipympl
