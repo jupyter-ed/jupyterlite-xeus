@@ -1,7 +1,7 @@
 {
   "LiteBuildConfig": {
     "no_sourcemaps": true,
-    "no_unused_shared_package": true,
+    "no_unused_shared_packages": true,
     "apps": ["lab","repl"]
   }
 }
