@@ -5,6 +5,7 @@ channels:
 dependencies:
   - xeus-python
   - xeus-sqlite
+  - xeus-javascript
   - ipywidgets
   - ipyevents
   - ipympl
