@@ -4,7 +4,6 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - xeus-javascript
   - xeus-sqlite
   - numpy
   - matplotlib
