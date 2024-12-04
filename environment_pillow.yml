@@ -6,6 +6,9 @@ dependencies:
   - xeus-python
   - xeus-sqlite
   - numpy
+  - ipympl
+  - plotly
+  - bqplot
   - matplotlib
   - pillow
   - ipywidgets
