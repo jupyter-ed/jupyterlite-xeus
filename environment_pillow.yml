@@ -6,13 +6,17 @@ dependencies:
   - xeus-python
   - xeus-javascript
   - xeus-sqlite
-  - numpy
+  - ipywidgets
+  - ipyevents
+  - ipycanvas
+  - ipyleaflet
+  # plotting
   - ipympl
+  - matplotlib
   - plotly
   - bqplot
-  - matplotlib
-  - pillow
-  - ipywidgets
-  - pip
-  - pip:
-      - ipycanvas
+  # math/high school algebra
+  - sympy
+  # data analysis
+  - pandas
+  - numpy
