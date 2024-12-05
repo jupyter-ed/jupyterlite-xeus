@@ -4,4 +4,6 @@ channels:
   - conda-forge
 dependencies:
   - python
-  - xeus-python
+  - pip
+  - jupyter_server
+  - jupyterlite-core
