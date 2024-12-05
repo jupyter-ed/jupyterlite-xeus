@@ -7,3 +7,4 @@ dependencies:
   - pip
   - jupyter_server
   - jupyterlite-core
+  - jupyter-xeus
