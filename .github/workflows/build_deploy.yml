@@ -12,4 +12,4 @@ jobs:
     with: 
      build_languages: 'python'
      build_script_code: 'jupyterlite-xeus'
-     mamba_env_file: 'environment_pillow.yml'
+     mamba_env_file: 'environment.yml'
