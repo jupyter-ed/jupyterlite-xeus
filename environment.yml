@@ -1,4 +1,4 @@
-name: env-jupyterlite-xeus-demo
+name: jupyterlite-xeus-demo
 channels:
   - https://repo.mamba.pm/emscripten-forge
   - conda-forge
