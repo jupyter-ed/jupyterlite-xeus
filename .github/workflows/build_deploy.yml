@@ -1,15 +1,10 @@
-name: build_deploy
+name: build and optionally deploy to github pages
 on:
-  workflow_dispatch 
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 jobs:   
-  job1: 
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
-    name: call the reusable workflow
-    uses: workflows-and-actions/library/.github/workflows/build_deploy_custom.yml@main
-    with: 
-     build_languages: 'python'
-     build_script_code: 'mamba jupyterlite-xeus'
-     mamba_env_file: 'build_environment.yml'
+  build:
+    uses: workflows-and-actions/library/.github/workflows/build_deploy_gh.yml@main
